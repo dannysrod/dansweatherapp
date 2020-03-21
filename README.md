@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bffb2bad-34aa-4c18-9339-fa8402c414ec/deploy-status)](https://app.netlify.com/sites/dannysotherweatherapp/deploys)
+
 # DannysWeatherApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
