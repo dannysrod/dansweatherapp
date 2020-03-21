@@ -41,7 +41,7 @@
         </div>
         <ng-template #waiting>
             <h5>Allow access to your location, and we will locate your local weather. Otherwise, enter the city you wish to see the weather for!</h5>
-            <img src="https://media.giphy.com/media/JzOyy8vKMCwvK/source.gif" alt="" *ngIf="locationDenied">
+            <img src="https://media.giphy.com/media/JzOyy8vKMCwvK/source.gif" alt="" class="center" *ngIf="locationDenied">
         <div class="input-group mt-5" *ngIf="locationDeniedEnableCity">
             <input class="form-control" type="text" #userInput placeholder="Enter City Name">
             <div class="input-group-append">
