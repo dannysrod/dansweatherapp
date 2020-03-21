@@ -4,7 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { TodayComponent } from './today/today.component';
 import { from } from 'rxjs';
-
+import { AgmCoreModule } from '@agm/core';
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +12,10 @@ import { from } from 'rxjs';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyA_ypt1IN4YHe2Hhc6oR9PVQTEiyLLwEDY'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

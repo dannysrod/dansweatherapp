@@ -1,0 +1,20 @@
+agm-map{
+    height: 25rem;
+}
+h5,h2{
+    font-family: sans-serif;
+    color: #f5593d;
+    font-weight: 500;
+    line-height: 33px;
+    margin-top: 2rem;
+}
+h2,.temp{
+    color: #505050;
+    font-size: 18px;
+    font-weight: 600;
+}
+p{
+    color: grey;
+    text-align: center;
+    font-size: 1.5rem;
+}
